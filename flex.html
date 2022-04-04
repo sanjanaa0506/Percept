@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>GRID & FLEX</title>
+<style type="text/css">
+
+
+	.flex-container
+	{
+		display: flex;
+		gap: 50px;
+		justify-content: space-between;
+		background: linear-gradient(purple,pink);
+		line-height: 120px;
+		border: 3px;
+		padding: 10px;
+		border: 3px solid black;
+		width: 120%;
+		flex-direction: row;
+
+	}
+	.flexbox
+	{
+		text-align: center;
+		color: white;
+		margin: 10px;
+		padding: 50px;
+		border: 6px solid black;
+
+
+	}
+
+	.grid-container
+	{
+		display: inline-grid;
+		grid-template-columns: 1% 2% 4% 8% 12% 16% 24%  ;
+		background-color: #2196F3;
+		padding: 10px;
+		gap: 50px 50px;
+		width: 100%;
+    }
+    .grid
+    {
+    	background-color: rgba(255, 255, 0.9, 255);
+    	text-align: center;
+    	font-size: 30px;
+    	border: 2px solid rgba(0, 0, 0, 1.0);
+    	padding: 20px;
+    }
+</style>
+</head>
+
+
+<body>
+	<div class="flex-container">
+	 <div class="flexbox" >S</div>
+     <div class="flexbox" >A</div>
+	 <div class="flexbox">N</div>
+	 <div class="flexbox">J</div>
+	 <div class="flexbox">U</div>
+	 <div class="flexbox">N</div>
+	 <div class="flexbox">E</div>
+</div>
+
+
+
+<div class="grid-container">
+	 <div class="grid">S</div>
+	 <div class="grid">A</div>
+	 <div class="grid">N</div>
+	 <div class="grid">J</div>
+	 <div class="grid">U</div>
+	 <div class="grid">N</div>
+	 <div class="grid">E</div>
+</div>
+
+
+
+
+</body>
+</html>
